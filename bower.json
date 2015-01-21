@@ -1,0 +1,24 @@
+{
+  "name": "template_express_mongoose",
+  "version": "0.0.1",
+  "authors": [
+    "fabiux <fabio.castaldo@imakeit.it>"
+  ],
+  "description": "Template express mongoose bootstrap",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.x",
+    "jquery": ">= 1.9.0",
+    "masonry": "~3.1.1",
+    "infinite-scroll": "*",
+    "underscore": "~1.5.1"
+  }
+}
