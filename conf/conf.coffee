@@ -1,4 +1,4 @@
 conf = require "./conf_main"
-conf.port = 3000
+conf.port = 5000
 
 module.exports = conf
