@@ -1,48 +1,90 @@
 <!DOCTYPE html>
-<html version="HTML+RDFa 1.1" lang="it">
-  <head>
-    <meta charset="utf-8">
-    <title>Titolo</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta charset="utf-8">
-    <!-- Include Stylesheets -->
-    
-    <link href="/stylesheets/style.css" rel="stylesheet" >  
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <title>Carbol - Levabolli e Grandine - Torino</title>
+      <meta name="description" content="Particolare attività che ripara la carrozzeria delle automobili, eliminando piccole e grandi ammaccature causate da grandine sportellate e colpi">
+      <meta name="author" content="">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,300italic' rel='stylesheet' type='text/css'>
+      <!-- Library CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.css">
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="css/animations.css" media="screen">
+      <link rel="stylesheet" href="css/superfish.css" media="screen">
+      <link rel="stylesheet" href="css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/global.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="css/colors/blue.css" class="colors">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/theme-responsive.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="cssCarbol/style.css">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-    
-    
-    <script type="text/javascript">
-      global = {};
-    </script>
-  </head>  
-  <body>
-    <%- body %>    
-    <!-- Le javascript
-	 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->        
-    <script src="/javascripts/lib.js"></script>    
-    <script src="/javascripts/main.js"></script>    
-    <!-- <script src="/assets/js/ejs_production.js"></script> -->
-    <!-- <script src="/assets/js/underscore-min.js"></script> -->
-    <!-- <script src="/assets/js/utils.js"></script> -->
-    <!-- <script src="/assets/js/main.js"></script>     -->
-    
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="/imgCarbol/favicon.ico">
+      
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+      <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-59121371-1', 'auto');
+	ga('send', 'pageview');
+	
+      </script>
+   </head>
+  <body class="home">
+    <div class="page-mask">
+      <div class="page-loader"> 
 
-    <script>
-      <!-- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ -->
-      <!-- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), -->
-      <!-- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) -->
-      <!-- })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); -->
+        <div class="spinner"></div>
+        Loading...
+      </div>
 
-      <!-- ga('create', '', ''); -->
-      <!-- ga('send', 'pageview'); -->
-    </script>
-
-  </body>
-  
+    </div>    
+    <%- body %>
+    <!-- The Scripts -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery-migrate-1.2.1.min.js"></script>
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery.parallax.js"></script>
+      <script src="js/jquery.wait.js"></script>  
+      <script src="js/modernizr-2.6.2.min.js"></script>
+      <script src="js/modernizr.custom.js"></script>
+      <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+      <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+      <script src="js/jquery.nivo.slider.pack.js"></script>
+      <script src="js/jquery.prettyPhoto.js"></script>
+      <script src="js/superfish.js"></script>
+      <script src="js/tweetMachine.js"></script>
+      <script src="js/tytabs.js"></script>
+      <script src="js/jquery.gmap.min.js"></script>
+      <script src="js/circularnav.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jflickrfeed.js"></script>
+      <script src="js/imagesloaded.pkgd.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="jsCarbol/main.js"></script>
+   </body>
 </html>

@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+}
+#header .main-header {
+  background: #212121;
+}
+#current,
+.menu ul li a:hover,
+.menu ul > li:hover > a {
+  background: #545454;
+}
+.tp-caption.modern_big_bluebg {
+  background-color: #212121;
+}
+.caption .dblue {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.bottom-pad-small {
+  margin-bottom: 0px;
+}
+.tp-caption h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+.service h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -2,7 +2,6 @@ express = require 'express'
 partials = require 'express-partials'
 fs = require "fs"
 routes = require './routes'
-user = require './routes/user'
 http = require 'http'
 path = require 'path'
 conf = require './conf'
@@ -30,6 +29,9 @@ if 'development' == app.get('env')
 fs.writeFileSync("process.pid",process.pid);
 
 #mongoose.connect(conf.mongo_uri);
+# app.get '/', (req,res) ->
+#     res.status(200).sendfile("public/index.html")
+
 app.get '/', routes.index
 
 
