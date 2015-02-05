@@ -2,12 +2,12 @@ body {
   background-color: #fff;
 }
 #header .main-header {
-  background: #212121;
+  background: #050505;
 }
 #current,
 .menu ul li a:hover,
 .menu ul > li:hover > a {
-  background: #545454;
+  background: #050505;
 }
 .tp-caption.modern_big_bluebg {
   background-color: #212121;
@@ -47,4 +47,8 @@ body {
   .list-slide {
     display: none;
   }
+}
+#header .main-header {
+  background: url('/imgCarbol/carbonio.jpg');
+  background-size: 100%;
 }
