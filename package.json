@@ -11,7 +11,7 @@
     "less-middleware": "*",
     "mongoose": "~3.6.18",
     "underscore": "~1.5.1",
-    "underscore.string": "~2.3.3",
+    "underscore.string": "~3.3.5",
     "streamline": "~0.8.0",
     "express-partials": "~0.1.1",
     "connect-mongo": "~0.3.3"
