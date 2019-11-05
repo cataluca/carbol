@@ -9,7 +9,7 @@
     "express": "3.3.5",
     "ejs": "*",
     "less-middleware": "*",
-    "mongoose": "~3.6.18",
+    "mongoose": "~5.7.8",
     "underscore": "~1.5.1",
     "underscore.string": "~2.3.3",
     "streamline": "~0.8.0",
